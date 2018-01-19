@@ -36,6 +36,7 @@ body, textarea, input {
 	word-wrap: break-word;
 	margin: 0;
 	border-top: 0;
+	/*only vertical scrolling possible*/
 	max-width: 100%;
 	min-width: 100%;
 	outline: : none;

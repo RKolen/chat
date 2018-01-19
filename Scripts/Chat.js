@@ -26,7 +26,7 @@ $(function() {
 		var allMessage = $("#chat-messages").html();
 		var newMessage = $("#textbox").val();
 		//console.log(userID);
-		username = "<span class = 'username' >" + userID + " says: </span>";
+		username = "<span class = 'username' style='color:red'>" + userID + "</span> <span class = 'username'> says: </span>";
 		//function to clear textbox after sending message
 		$("#textbox").val("");
 		//sending to server username+message
@@ -82,6 +82,6 @@ $(function() {
 	window.setInterval(function() {
 		getCorrectIds();
 		refreshChat();
-	}, 6000);
+	}, 3000);
 		
 });
