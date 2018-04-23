@@ -1,1 +1,1 @@
-# chat http://wijzijncodegorilla.nl/raymond/chat/
+# chat http://codechamps.nl/raymond/chat/
